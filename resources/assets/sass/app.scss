@@ -1,0 +1,90 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@font-face {
+  font-family: "fa";
+  src: url("fonts/faicon/fontawesome-webfont.ttf");
+}
+@font-face {
+  font-family: "fa";
+  src: url("fonts/faicon/FontAwesome.otf");
+}
+body.col-md-5 .flex-center.position-ref.full-height{
+  color: red ;
+}
+.hidden{
+  display: none;
+}
+.fa span{
+  display: none;
+}
+/** Top line **/
+.itg-header{
+  .itg-ul-menu li{
+    display: inline-block;
+  }
+  .topline-left{
+    .itg-cart-block p,
+    .itg-cart-block img{
+      display: inline-block;
+    }
+    .itg-cart-block img{
+      max-width: 100px;
+    }
+
+
+  }
+
+}
+.itg-logo-line{
+  .itg-logo{
+
+  }
+  .itg-search form input{
+    display: inline-block;
+  }
+}
+
+.itg-category-menu ul li{
+  display: inline-block;
+}
+
+/** End Top line **/
+
+/*** slider**/
+
+.itg-slider-wrap{
+  .slick-prev{
+    left: 0;
+  }
+  .slick-next{
+    right: 0;
+  }
+  .itg-img-slide-item {
+
+  }
+  .slider-for{
+    .itg-img-slide-item{
+      .img-fluid{
+        width: 100%;
+      }
+    }
+  }
+  .slider-nav{
+    .itg-img-slide-item{
+      .img-fluid{
+        width: 99%;
+      }
+    }
+  }
+}
+
+
+/*** endslider**/
