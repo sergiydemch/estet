@@ -1,6 +1,8 @@
 $(document).ready(function () {
     // $('.dropdown-toggle').dropdown();
 
+    // jQuery_1_3_2('#selector').function('.itg-tabs-slick1, .itg-tabs-slick2, .itg-tabs-slick3, .itg-tabs-slick4');
+
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
         $('.itg-tabs-slick1').slick("setPosition", 0);
         $('.itg-tabs-slick2').slick("setPosition", 0);
@@ -8,9 +10,11 @@ $(document).ready(function () {
         $('.itg-tabs-slick4').slick("setPosition", 0);
     });
 
-    // $('.itg-main-tabs .nav-tabs li a').on('click', function () {
-    //     console.log('hhh');
-    // });
+    $('.itg-main-tabs .nav-tabs li a').on('click', function () {
+        var hhh = $(this).parent().parent().parent('.row').html();
+        hhh.find('.fa-chevron-right').trigger("click");
+        console.log(hhh);
+    });
 
     $('.slider-for').slick({
         slidesToShow: 1,
