@@ -36,3 +36,11 @@ $input-color-placeholder: lighten($text-color, 30%);
 
 // Panels
 $panel-default-heading-bg: #fff;
+
+// Screens
+$break-xs-small: 320px;
+$break-md-small: 480px;
+$break-small: 600px;
+$break-lg-small: 768px;
+$break-medium: 991px;
+$break-large: 1200px;
