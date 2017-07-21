@@ -680,7 +680,7 @@
                 <div class="itg-copyrights container-fluid padding-0">
                     <div class="copyrights-inner container">
                         <div class="row">
-                            <div class="col-md-6 text-left">developed by <a href="#">IT-GUYS</a></div>
+                            <div class="col-md-6 text-left"><p>developed by <a href="#">IT-GUYS</a></p></div>
                             <div class="col-md-6 text-right">
                                 <button type="button" class="default-button-site btn-info btn-lg contact-us-footer" data-toggle="modal" data-target="#myModalCallback"><i aria-hidden="true" class="fa fa-envelope"><span>fa</span></i>contact us</button>
                             </div>
