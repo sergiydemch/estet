@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        {{--<title>Laravel</title>--}}
+        <title>Laravel</title>
         {{--<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>--}}
         {{--<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>--}}
         <script type="text/javascript" src="/js/main.js"></script>
@@ -66,7 +66,7 @@
                                <input type="submit" class="hidden"><i aria-hidden="true" class="fa fa-search"><span>fa</span></i>
                            </div>
                            <div class="col-md-2 itg-modal col-xs-12 col-sm-6">
-                               <button type="default-button-site" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Обратный звонок</button>
+                               <button type="default-button-site" class="btn btn-info btn-lg btn-modal" data-toggle="modal" data-target="#myModal">Обратный звонок</button>
                            </div>
                            <div class="col-md-3 itg-phones text-right col-xs-12 col-sm-6">
                                <div class="phones-inner">
@@ -82,7 +82,7 @@
                         <div class="row">
                             <ul class="menu nav">
                                 <li class="expanded dropdown">
-                                    <a href="" class="dropdown-toggle" data-target="#" data-toggle="dropdown">Гипсовая лепнина<span class="caret"></span></a>
+                                    <a href="" class="dropdown-toggle" data-target="#" data-toggle="">Гипсовая лепнина<span class="caret"></span></a>
                                     <ul class="menu dropdown-menu">
                                         <li>
                                             <a href="">Декоративные камины</a>

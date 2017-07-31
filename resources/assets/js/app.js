@@ -2,6 +2,10 @@ $(document).ready(function () {
     // $('.dropdown-toggle').dropdown();
 
     // jQuery_1_3_2('#selector').function('.itg-tabs-slick1, .itg-tabs-slick2, .itg-tabs-slick3, .itg-tabs-slick4');
+    $('.btn-modal').on('click', function () {
+        $('.itg-modals #myModal.modal.fade.in').css('display', 'block');
+    });
+
 
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
         $('.itg-tabs-slick1').slick("setPosition", 0);
@@ -11,9 +15,9 @@ $(document).ready(function () {
     });
 
     $('.itg-main-tabs .nav-tabs li a').on('click', function () {
-        var hhh = $(this).parent().parent().parent('.row').html();
-        hhh.find('.fa-chevron-right').trigger("click");
-        console.log(hhh);
+        // var hhh = $(this).parent().parent().parent('.row').html();
+        // hhh.find('.fa-chevron-right').trigger("click");
+        // console.log(hhh);
     });
 
     $('.slider-for').slick({
@@ -115,18 +119,18 @@ $(document).ready(function () {
     /**  spoiler **/
 
             // spoiler
-
-        $('.read-more-spoiler').on('click', function () {
-            $('.spoiler-inner').removeClass('spoiler-inner-hidden');
-            $('.read-more-spoiler-span').addClass('display-hidden');
-            $('.read-more-spoiler-close').removeClass('display-hidden');
-        });
-
-        $('.read-more-spoiler-close').on('click', function () {
-            $(this).addClass('display-hidden');
-            $('.spoiler-inner').addClass('spoiler-inner-hidden');
-            $('.read-more-spoiler').removeClass('display-hidden');
-        });
+        //
+        // $('.read-more-spoiler').on('click', function () {
+        //     $('.spoiler-inner').removeClass('spoiler-inner-hidden');
+        //     $('.read-more-spoiler-span').addClass('display-hidden');
+        //     $('.read-more-spoiler-close').removeClass('display-hidden');
+        // });
+        //
+        // $('.read-more-spoiler-close').on('click', function () {
+        //     $(this).addClass('display-hidden');
+        //     $('.spoiler-inner').addClass('spoiler-inner-hidden');
+        //     $('.read-more-spoiler').removeClass('display-hidden');
+        // });
 
 
 
